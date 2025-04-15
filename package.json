@@ -1,0 +1,38 @@
+{
+  "name": "node-express-jwt-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2",
+    "nodemon": "^3.1.9",
+    "validator": "^13.15.0"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "lint": "eslint .",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamshaunjp/node-express-jwt-auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamshaunjp/node-express-jwt-auth/issues"
+  },
+  "homepage": "https://github.com/iamshaunjp/node-express-jwt-auth#readme",
+  "devDependencies": {
+    "@types/mongoose": "^5.11.96",
+    "chai": "^5.2.0",
+    "eslint": "^9.24.0",
+    "mocha": "^11.1.0"
+  }
+}
